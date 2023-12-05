@@ -1,12 +1,9 @@
 {
-  "name": "tinacms.org",
+  "name": "tinaio",
   "version": "1.0.0",
   "description": "A hub for Tina's documentation, blog & general info.",
   "author": "Forestry.io",
   "main": "n/a",
-  "engines": {
-    "node": ">=18"
-  },
   "scripts": {
     "dev": "tinacms dev --datalayer-port 9321 --noTelemetry  -c \"next dev\" ",
     "build": "yarn create-rss && tinacms build  --datalayer-port 9341   && next build",
@@ -30,8 +27,6 @@
     "@react-hook/window-size": "^3.1.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tinacms/auth": "1.0.3",
-    "@tinacms/datalayer-old": "npm:@tinacms/datalayer@0.2.3",
-    "@tinacms/graphql-old": "npm:@tinacms/graphql@0.60.0",
     "@tinacms/vercel-previews": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^5.42.0",
     "@typescript-eslint/parser": "^5.42.0",
